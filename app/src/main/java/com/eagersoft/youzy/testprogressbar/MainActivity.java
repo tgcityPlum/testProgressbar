@@ -79,8 +79,8 @@ public class MainActivity extends AppCompatActivity {
                         tvMoneyCurrent.setLayoutParams(layoutParams);
                         //添加控件
                         fl_money.addView(tvMoneyCurrent);
-
-                        tvMoneyCurrent.getViewTreeObserver().addOnGlobalLayoutListener(new ViewTreeObserver.OnGlobalLayoutListener() {
+                        //此处为了获取数据，使用时注释掉
+                        /*tvMoneyCurrent.getViewTreeObserver().addOnGlobalLayoutListener(new ViewTreeObserver.OnGlobalLayoutListener() {
 
                             @Override
                             public void onGlobalLayout() {
@@ -89,7 +89,7 @@ public class MainActivity extends AppCompatActivity {
                                 Log.e("left:" + tvMoneyCurrent.getLeft() + ";right:" + tvMoneyCurrent.getRight(), ";top:" + tvMoneyCurrent.getTop() + ";bottom:" + tvMoneyCurrent.getBottom());
 
                             }
-                        });
+                        });*/
                     }
                 }
             });
