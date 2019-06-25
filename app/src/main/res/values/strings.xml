@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TestProgressBar</string>
+
+    <string name="money">¥%d</string>
+</resources>
